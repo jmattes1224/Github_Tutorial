@@ -1,1 +1,10 @@
-print("trying to get a merge conflict")
+print("hello_world")
+
+import math
+def median(input):
+  x = len(input)
+  y = math.floor(x/2)
+  if x % 2 == 0:
+    return (input[y] + input[y+1])/2
+  else:
+    return input[y]
