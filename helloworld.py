@@ -1,5 +1,12 @@
 print("hello_world")
 
+def mean(input):
+  sum = 0
+  for entry in input:
+    sum += entry
+  return sum / len(input)
+print("hello_world")
+
 import math
 def median(input):
   x = len(input)
